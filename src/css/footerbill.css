@@ -1,6 +1,3 @@
-/* @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); */
-/* @import url('https://www.w3schools.com/w3css/4/w3.css'); */
-
 *{
   box-sizing:border-box;
   margin: 0;
@@ -9,14 +6,9 @@
   .footer-main{
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 0rem 2rem 0 2rem;
+    margin: 0rem 2rem -10px 2rem;
     color: blanchedalmond;
     background-color:black;}
-
-.copyright {background: goldenrod;
-    margin: 0px 20px;
-   font-size: 20px;
-    text-align-last: center;}
 
 .footer-li li{
     display: flex;
@@ -31,6 +23,12 @@
     margin-top: 1.5rem;
     margin-left: 2rem;}
 
-.brand h1, p {text-align: left;}
+.brand h1, p {font-size: 26px;
+    text-align: left;}
 
 .brand span {font-size: 38px;}
+
+.copyright {background: goldenrod;
+    margin: 0px 20px !important;
+   font-size: 20px;
+    text-align-last: center;}

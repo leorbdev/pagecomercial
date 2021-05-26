@@ -11,14 +11,14 @@
 .img-card-bill{margin: 8px 5px 0px 5px;}
 .img-card-tarj{margin: 8px 5px 0px 5px;}
 
-.img-card-bill h7{
+.img-card-bill > h7{
     margin: 0px 3px;
     font-size: 12px;
     PADDING: 3px 6px 3px 3px;
     background-color: red;
     color:white;}
 
-.card-box-bill { display: block;
+.card-box-bill {display: block;
     max-width: 335px;
     min-width: 300px;
     margin-bottom: 12px;
@@ -42,6 +42,12 @@ li{list-style: none;}
     text-align: left;
     margin: 0px 10px}
 
+.colorText-card h2{margin-bottom: 12px;
+    color: darkblue;
+    font-size: 20px;}
+
+.colorText-card h7{color: tomato;}
+
 .txt-card-bill {margin-top: 2px;}
 
 .txt-card-bill h5{margin-top: 10px;
@@ -49,6 +55,7 @@ li{list-style: none;}
 
 .txt-card-bill h4{margin-top: -19px;
     color: crimson;
+    font-size: 18px;
     position: absolute;}
 
 .txt-card-bill h2{color: blue;}
@@ -56,6 +63,7 @@ li{list-style: none;}
 .txt-card-bill h1{ position: absolute;
     color: blue;
     font-size: 20px;
+    margin-top: 18px;
   text-align-last: start;}
 
 .txt-card-bill p{color: crimson;}
@@ -67,6 +75,7 @@ li{list-style: none;}
 
 .txt-card-tarj h4{margin-top: -22px;
     color: crimson;
+    font-size: 18px;
     position: absolute;}
 
 .txt-card-tarj h2{color: blue;}
@@ -79,12 +88,11 @@ li{list-style: none;}
 
 .txt-card-tarj p{color: crimson;}
 /* --------------------------------------------------------------------------- */
-.colorText-card h2{margin-bottom: 12px;
-    font-size: 20px;}
-.colorText-card h7{color: tomato;}
-
 .btn-card:hover{ background-color: #6671b4;
     color: white;}
+
+.btn-card-bill:hover{ background-color: #6671b4;
+        color: white;}
 
 .btn-card{
     display: flex;
@@ -94,10 +102,18 @@ li{list-style: none;}
     margin: 4px 2px 4px 3px;
     border-radius: 4px;
     justify-content: center;
-    /* transition-duration: 0.4s; */
-}
+    /* transition-duration: 0.4s; */}
 
-.btn-card h4 { margin: inherit;}
+.btn-card h4 {margin-top: 0px;}
+.btn-card-bill h4 { margin-top: 0px;}
+
+.btn-card-bill {display: flex;
+    background-color:lavender;
+    width: 98%;
+    height: 28px;
+    margin: 13px 2px 4px 3px;
+    border-radius: 4px;
+    justify-content: center;}
 
 .input-card{width: 60%;}
 .material-icons{
@@ -118,8 +134,9 @@ li{list-style: none;}
 .card-buy h1 {color: blue;
     background-color: gainsboro;
     font-size: 25px;
-text-align: center;}
-/* } */
+    margin-block: auto;
+    text-align: center;}
+
 /* ---------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 360px){
 .body-products{text-align: -webkit-center;}
@@ -136,7 +153,7 @@ text-align: center;}
 /* .img-card-bill img{max-width: 700px;
 height: 540px;} */
 
-.btn-card h4 {margin: 3px;}
+/* .btn-card h4 {margin: 3px;} */
 
 .carousel.main{text-align: -webkit-center;}
 }

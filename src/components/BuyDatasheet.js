@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/datasheet.css'
 export default class Datasheet extends React.Component {
 render (){
 

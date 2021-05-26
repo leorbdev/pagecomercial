@@ -8,12 +8,12 @@ return (
 <div>
     <div className="header-products">
     {/* <img src={bckgrd} alt="First slide"/> */}
-        <span className="material-icons " >&#xef43; </span> 
-        <h1>Cisco Leather</h1>
-        <p>Guarda tus documentos de una sencilla</p>
+    <Link to='/'> <span className="material-icons " >&#xef43; </span> </Link>
+    <Link to='/'> <h1>Leather Inc</h1>  </Link>
+        <p>Guarda tus documentos de una manera segura y sencilla</p>
         <ul >
             <li>
-                <Link to="/" >Home</Link>
+            {/* <Link to='/'><span className="material-icons home-icon" >&#xe88a;</span></Link> */}
             </li>
         </ul>
     </div>

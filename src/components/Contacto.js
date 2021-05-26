@@ -14,6 +14,7 @@ export default class Contacto extends React.Component {
 
 render() {
 return (
+<div className='body-contact'>
 <div className='main-contact'>
   <div className='header-contact'>
     <div className='icons'> 
@@ -42,6 +43,7 @@ return (
     <h3> <span className="material-icons" >&#xe55f;</span>Bogota DC  </h3>
   </div>
 </div> 
+</div>
     );
   }
 }

@@ -104,12 +104,12 @@ return (
                  <h2>$50.000 COP</h2>
                 <h5>Cuero Original</h5>
                 <h5>Dimension 12 x 9cm</h5>
-                <h5>7 Bolsillos</h5><br /><br /><br />
+                <h5>7 Bolsillos</h5><br /><br />
                 <h4>{txtPricebill()}</h4>
                <h1> ${calcPriceBill()} COP</h1>
             </div>
         </div> 
-        <button onClick={()=>this.funtShowBuyBill()} className="btn-card">
+        <button onClick={()=>this.funtShowBuyBill()} className="btn-card-bill">
          <span className="material-icons " >&#xe854; </span> <h4>AGREGAR AL CARRITO</h4></button>
     </div>
 
@@ -117,7 +117,7 @@ return (
         <div className='img-card-bill'>
             {this.state.colortarj === 'cooper' ? (<img src={targbrown} alt='cooper'/>) : null}
             {this.state.colortarj === 'carmine' ? (<img src={targred} alt='carmine'/>) : null}
-            <h7>15% de  Descuento si compras mas de 5 tarjeteros </h7><br /><br />
+            <h7>15% de  Descuento mas de 5 tarjeteros</h7><br /><br />
             {/* <h7>20% de Descuento entre 11 y 20 tarjeteros </h7><br /> */}
         </div> 
 
