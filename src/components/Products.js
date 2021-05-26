@@ -7,10 +7,7 @@ import billgreen from '../images/billverde.jpeg'
 import billbrown from '../images/billcafe.jpeg'
 import targbrown from '../images/targbrown.jpeg'
 import targred from '../images/targred.jpeg'
-import BuyDatasheet from '../components/BuyDatasheet'
 import HeaderProducts from '../components/HeaderProducts'
-import Button from "react-bootstrap/Button";
-
 
 export default class Products extends React.Component {
   // handleClick = e => {
@@ -80,10 +77,10 @@ return (
   <div className='card-box'>
     <div className='card-box-bill'>
         <div className='img-card-bill'>
-            {this.state.colorbill === 'verde' ? (<img src={billgreen}/>) : null}
-            {this.state.colorbill === 'azul' ? (<img src={billblue}/>) : null}
-            {this.state.colorbill === 'negro' ? (<img src={billblack}/>) : null}
-            {this.state.colorbill === 'cafe' ? (<img src={billbrown}/>) : null}
+            {this.state.colorbill === 'verde' ? (<img src={billgreen} alt='verde'/>) : null}
+            {this.state.colorbill === 'azul' ? (<img src={billblue} alt='azul  ' />) : null}
+            {this.state.colorbill === 'negro' ? (<img src={billblack} alt='negra'/>) : null}
+            {this.state.colorbill === 'cafe' ? (<img src={billbrown} alt='cafe'/>) : null}
             <h7>15% de  Descuento si compras mas de 5 billeteras </h7><br /><br />
             {/* <h7>20% de Descuento entre 11 y 20 billeteras </h7><br /> */}
         </div> 
@@ -118,8 +115,8 @@ return (
 
     <div className='card-box-tarj'>
         <div className='img-card-bill'>
-            {this.state.colortarj === 'cooper' ? (<img src={targbrown}/>) : null}
-            {this.state.colortarj === 'carmine' ? (<img src={targred}/>) : null}
+            {this.state.colortarj === 'cooper' ? (<img src={targbrown} alt='cooper'/>) : null}
+            {this.state.colortarj === 'carmine' ? (<img src={targred} alt='carmine'/>) : null}
             <h7>15% de  Descuento si compras mas de 5 tarjeteros </h7><br /><br />
             {/* <h7>20% de Descuento entre 11 y 20 tarjeteros </h7><br /> */}
         </div> 

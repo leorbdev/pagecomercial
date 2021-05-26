@@ -4,11 +4,6 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Link } from 'react-router-dom';
 
-const loginUser = async values => {
-  const res = await fetch({ url: '#', method: "POST", body: values });
-  const data = await res.json();
-  return data;
-};
 export default class Contacto extends React.Component {
   state = {
     email: "",
