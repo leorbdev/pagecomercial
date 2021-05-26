@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/pagecomercial/static/css/main.fec48aa3.chunk.css",
-    "main.js": "/pagecomercial/static/js/main.d12e81b9.chunk.js",
-    "main.js.map": "/pagecomercial/static/js/main.d12e81b9.chunk.js.map",
+    "main.css": "/pagecomercial/static/css/main.bc6e2d92.chunk.css",
+    "main.js": "/pagecomercial/static/js/main.8b2ef4ab.chunk.js",
+    "main.js.map": "/pagecomercial/static/js/main.8b2ef4ab.chunk.js.map",
     "runtime-main.js": "/pagecomercial/static/js/runtime-main.8e454f5c.js",
     "runtime-main.js.map": "/pagecomercial/static/js/runtime-main.8e454f5c.js.map",
     "static/css/2.61b4cb56.chunk.css": "/pagecomercial/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.faab8c70.chunk.js": "/pagecomercial/static/js/2.faab8c70.chunk.js",
-    "static/js/2.faab8c70.chunk.js.map": "/pagecomercial/static/js/2.faab8c70.chunk.js.map",
+    "static/js/2.c37b0034.chunk.js": "/pagecomercial/static/js/2.c37b0034.chunk.js",
+    "static/js/2.c37b0034.chunk.js.map": "/pagecomercial/static/js/2.c37b0034.chunk.js.map",
     "index.html": "/pagecomercial/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/pagecomercial/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.fec48aa3.chunk.css.map": "/pagecomercial/static/css/main.fec48aa3.chunk.css.map",
-    "static/js/2.faab8c70.chunk.js.LICENSE.txt": "/pagecomercial/static/js/2.faab8c70.chunk.js.LICENSE.txt",
+    "static/css/main.bc6e2d92.chunk.css.map": "/pagecomercial/static/css/main.bc6e2d92.chunk.css.map",
+    "static/js/2.c37b0034.chunk.js.LICENSE.txt": "/pagecomercial/static/js/2.c37b0034.chunk.js.LICENSE.txt",
     "static/media/mainbill.css": "/pagecomercial/static/media/minimalist.5ed2d8f7.jpg",
     "static/media/billazul.b3823c80.jpeg": "/pagecomercial/static/media/billazul.b3823c80.jpeg",
     "static/media/billboton.eb640d40.jpeg": "/pagecomercial/static/media/billboton.eb640d40.jpeg",
     "static/media/billbrown.924abab9.jpeg": "/pagecomercial/static/media/billbrown.924abab9.jpeg",
     "static/media/billbrown_2.c5b59814.jpeg": "/pagecomercial/static/media/billbrown_2.c5b59814.jpeg",
-    "static/media/billbrown_3.a10a5be2.jpeg": "/pagecomercial/static/media/billbrown_3.a10a5be2.jpeg",
     "static/media/billcafe.2620cf0f.jpeg": "/pagecomercial/static/media/billcafe.2620cf0f.jpeg",
     "static/media/billnegra.67568e68.jpeg": "/pagecomercial/static/media/billnegra.67568e68.jpeg",
     "static/media/billverde.927579fd.jpeg": "/pagecomercial/static/media/billverde.927579fd.jpeg",
@@ -31,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.8e454f5c.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.faab8c70.chunk.js",
-    "static/css/main.fec48aa3.chunk.css",
-    "static/js/main.d12e81b9.chunk.js"
+    "static/js/2.c37b0034.chunk.js",
+    "static/css/main.bc6e2d92.chunk.css",
+    "static/js/main.8b2ef4ab.chunk.js"
   ]
 }
