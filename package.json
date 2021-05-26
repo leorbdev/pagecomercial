@@ -1,6 +1,6 @@
 {
-  "homepage": "https://leorvdev.github.io/pagecomercial/",
-  "name": "Leather Inc",
+  "homepage": "https://leorvdev.github.io/pagecomercial",
+  "name": "pagecomercial",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
