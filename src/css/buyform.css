@@ -1,0 +1,13 @@
+*{box-sizing:border-box;
+    margin: 0;
+    padding: 0;}
+
+.main-form {
+    margin: 0px 5px;}
+
+.main-form form{display: block;
+        margin: 5px 5px;}
+
+.main-form input{display: block
+    ;}
+    

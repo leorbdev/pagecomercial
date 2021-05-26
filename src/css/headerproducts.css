@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); */
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;}
+
+.header-products{
+  height: 10%;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/formon.jpeg);
+  /* background-image: linear-gradient(to top, transparent, rgb(192, 217, 228)), url(../images/backgBlack.jpg); */
+  /* background: linear-gradient(to bottom left, rgb(1, 8, 29) 50%, rgb(24, 20, 143) 50%); */
+  margin: 5px;
+}
+
+.header-products span{
+  font-size: 60px;
+  color: blanchedalmond;
+  margin-top: 1rem;}
+
+.header-products h1{
+  color:seashell;
+  font-size: 3rem;
+ 
+  font-weight: bold;
+ /* margin: 22px; */
+}
+.header-products p{
+  color: blanchedalmond;
+  
+  font-size: 1.6rem;
+  margin-top: 2px;}
+
+  .header-products ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+  }
+
+  .header-products li{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: goldenrod;
+    list-style: none; }
+
+  .header-products a{color: snow;}
