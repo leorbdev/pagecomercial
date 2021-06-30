@@ -8,11 +8,11 @@
 
 .card-box {display: block;}
 
-.img-card-bill{margin: 8px 5px 0px 5px;}
-.img-card-tarj{margin: 8px 5px 0px 5px;}
+.img-card-bill{margin: 8px 5px -25px 5px;}
+.img-card-tarj{margin: 8px 5px -25px 5px;}
 
 .img-card-bill > h7{
-    margin: 0px 3px;
+    margin: 0px 1px;
     font-size: 12px;
     PADDING: 3px 6px 3px 3px;
     background-color: red;
@@ -21,6 +21,7 @@
 .card-box-bill {display: block;
     max-width: 335px;
     min-width: 300px;
+    height: 647px;
     margin-bottom: 12px;
     border: solid;
     border-color: darkslateblue;}
@@ -28,6 +29,7 @@
 .card-box-tarj  { display: block;
     max-width: 335px;
     min-width: 300px;
+    height: 647px;
     margin-bottom: 12px;
     border: solid;
     border-color: darkslateblue;}
@@ -44,7 +46,8 @@ li{list-style: none;}
 
 .colorText-card h2{margin-bottom: 12px;
     color: darkblue;
-    font-size: 20px;}
+    font-weight: bold;
+    font-size: 25px;}
 
 .colorText-card h7{color: tomato;}
 
@@ -111,7 +114,7 @@ li{list-style: none;}
     background-color:lavender;
     width: 98%;
     height: 28px;
-    margin: 13px 2px 4px 3px;
+    margin: -6px 2px 4px 3px;
     border-radius: 4px;
     justify-content: center;}
 
@@ -129,18 +132,20 @@ li{list-style: none;}
 
 .card-buy h2, h3 {margin: 5px 13px;}
 
-.card-buy h2{font-size: 25px ;}
+.card-buy h2{font-weight: bold;
+    font-size: 25px ;}
 
 .card-buy h1 {color: blue;
     background-color: gainsboro;
     font-size: 25px;
-    margin-block: auto;
+    margin-block: 7px;
     text-align: center;}
 
 /* ---------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 360px){
 .body-products{text-align: -webkit-center;}
-
+.btn-card-bill {margin: 8px 2px 4px 3px;}
+.btn-card {margin: -2px 2px 4px 3px;}
 /* text-align: {left;} */
 }
 

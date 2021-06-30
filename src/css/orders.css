@@ -1,0 +1,9 @@
+.container-order {
+  text-align: left;
+  margin: 10px;
+  
+}
+
+.input-order td{border-top: inset;}
+
+/* .input-card {display: none;} */

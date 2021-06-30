@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;}
 
-.main-contact{margin: 5px;}
+.main-contact{min-width: 310px;
+    margin: 5px;}
 
 .header-contact, .date-contact {
     background-color: black;
     color: blanchedalmond;
 }
 
-.header-contact h2, h3, span{
+.header-contact h2, span{
     font-size: 20px;
     margin: 2px 10px;
     height: 35px;}
@@ -20,6 +21,9 @@
     display: grid;}
 
 .form-contact {font-size: 15px;}
+
+.date-contact h3{margin: -1px 0px;
+    font-size: 16px ;}
 /* ---------------------------------------------------------------------------------------- */
 @media screen and (min-width: 360px){
 .body-contact {text-align: -webkit-center;}

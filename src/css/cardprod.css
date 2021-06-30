@@ -1,0 +1,31 @@
+*{box-sizing:border-box;
+    margin: 0;
+    padding: 0;}
+    
+.container{ min-width: 260px;
+    text-align: -webkit-center;}
+
+.card{margin: 8px 10px;
+    min-width: 260px;
+    text-align: -webkit-center;
+    text-align-last: left;
+    max-width: 200px;}
+
+.card-text{display: flex;
+    font-size: 12px;}
+
+.card-text p{margin-bottom: 0rem;
+    font-size: 12px;}
+
+ol, ul {padding-left: 0rem;}
+
+.fa {color:#25d366;
+    font-size: 17px;}
+/* ----------------------------------------------------------- */
+@media screen and (min-width: 520px){
+.container {display: grid;
+        grid-auto-flow: column;}
+
+.card-text{color: hotpink;
+        font-size: 12px;}
+}
